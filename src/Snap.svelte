@@ -1,16 +1,6 @@
 <script>
 /** eslint-disable svelte/valid-compile **/
 import Layout from './Layout.svelte'
-
-// navigator.serviceWorker.register('./sw.js')
-  // navigator.windowControlsOverlay.ongeometrychange = console.log
-
-  // export let hidden = false
-  // if ('windowControlsOverlay' in navigator) {
-  //   hidden = !navigator.windowControlsOverlay.visible
-  //   navigator.windowControlsOverlay.ongeometrychange = ({ visible }) => { hidden = !visible }
-  // }
-  // $: console.log(hidden)
 const grids = [
   [
     { w: 50 },
