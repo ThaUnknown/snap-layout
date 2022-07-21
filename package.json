@@ -1,10 +1,11 @@
 {
   "name": "snap-layout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight, fast, layout snapping module. Made with Svelte.",
   "files":[
     "dist/*",
-    "src/*"
+    "src/*",
+    "docs/"
   ],
   "main": "src/Snap.svelte",
   "scripts": {
