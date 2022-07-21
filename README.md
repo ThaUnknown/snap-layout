@@ -20,3 +20,11 @@ import SnapLayout from 'snap-layout'
 - `hide` - boolean, hides the menu
 - `fill` - CSS Color to use for the icon color
 - `size` - CSS Size to use for the icon size
+
+Or use as a web component outside Svelte:
+```html
+<script src="https://cdn.jsdelivr.net/npm/layout-snap@latest/dist/snap-layout.js"></script>
+<body>
+  <snap-layout fill="white" size="3rem"></snap-layout>
+</body>
+```
