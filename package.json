@@ -26,6 +26,7 @@
     "svelte": "^3.49.0",
     "vite": "^3.0.2"
   },
+  "author": "ThaUnknown",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ThaUnknown/snap-layout.git"
