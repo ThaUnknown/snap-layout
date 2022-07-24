@@ -11,6 +11,7 @@ Note: It's not possible to resize a window or tab that wasn't created by `window
 
 This module uses `rem` for sizing, so to change the size of the module simply change the font size of the parent component.
 
+This module uses $$restProps, which means you can pass any property to the root div, like style, class etc.
 ## Functions:
 ```jsx
 import SnapLayout from 'snap-layout'

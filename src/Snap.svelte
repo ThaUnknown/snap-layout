@@ -47,7 +47,7 @@ export let size = '2rem'
 <!-- eslint-disable-next-line svelte/valid-compile -->
 <svelte:options tag='snap-layout' />
 
-<div class='position-relative' style:width={size} style:height={size}>
+<div {...$$restProps} class='position-relative' style:width={size} style:height={size}>
   <svg class='w-full p-1 pointer' on:click={() => { hide = !hide }} viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg' {fill}><path d='M3 2L2 3V13L3 14H7L8 13V3L7 2H3ZM3 13V3H7V13H3Z'/><path d='M10 3L11 2H14L15 3V6L14 7H11L10 6V3ZM11 3V6H14V3H11Z'/><path d='M10 10L11 9H14L15 10V13L14 14H11L10 13V10ZM11 10V13H14V10H11Z'/></svg>
   <div class:d-none={hide} style:top={size} class='position-absolute border rounded shadow-lg right-0 w-450 d-flex flex-wrap justify-content-center bg-tp'>
     {#each grids as grid}
