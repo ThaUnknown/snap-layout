@@ -19,7 +19,6 @@ import SnapLayout from 'snap-layout'
 <SnapLayout hide={true} fill="grey" size="2rem">
 ```
 - `hide` - boolean, hides the menu
-- `fill` - CSS Color to use for the icon color
 - `size` - CSS Size to use for the icon size
 
 Or use as a web component outside Svelte:
